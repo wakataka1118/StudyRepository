@@ -23,7 +23,6 @@ function JapaneseHoliday(date) {
     print(holidayDate);
 }
 
-
 function theFisrtDayOfTheYear(year){
     let holidayDate = [];
     // 元日の振替休日判定
