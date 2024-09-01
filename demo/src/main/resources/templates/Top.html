@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>API Sample</title>
+</head>
+
+<body>
+    <h1>APIサンプル</h1>
+    <p>文字列を送信</p>
+    <form th:action="@{/client/execute}" th:method="post">
+        <input type="text" name="str" />
+        <input type="submit" value="API連携開始" />
+    </form>
+</body>
+
+</html>

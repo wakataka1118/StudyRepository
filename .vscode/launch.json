@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "HostApplication",
+            "request": "launch",
+            "mainClass": "com.example.host.HostApplication",
+            "projectName": "host"
+        },
+        {
+            "type": "java",
+            "name": "HostApplication",
+            "request": "launch",
+            "mainClass": "HostApplication",
+            "projectName": "git_9e93f73a"
+        },
+        {
+            "type": "java",
+            "name": "DemoApplication",
+            "request": "launch",
+            "mainClass": "com.example.demo.DemoApplication",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "DemoApplication",
+            "request": "launch",
+            "mainClass": "DemoApplication",
+            "projectName": "git_9e93f73a"
+        }
+    ]
+}
