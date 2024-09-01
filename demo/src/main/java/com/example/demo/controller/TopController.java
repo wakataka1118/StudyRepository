@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.example.demo.request.Request;
 
+@Controller
 @RequestMapping("/")
 public class TopController {
 

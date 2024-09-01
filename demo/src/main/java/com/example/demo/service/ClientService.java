@@ -22,7 +22,7 @@ public class ClientService {
 
     public ResponseCode doApi(Request request) throws Exception {
         // 送信先URL
-        String url = "http://localhost:8081/host/response";
+        String url = "http://localhost:9090/host/response";
 
         try {
             Result result = post(url, request, Result.class);
